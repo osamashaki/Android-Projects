@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kucing_adik"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="BACALAH"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Four"></activity>
+        <activity android:name="Five"></activity>
+        <activity android:name="Six"></activity>
+        <activity android:name="Eight"></activity>
+        <activity android:name="Seven"></activity>
+        <activity android:name="Nine"></activity>
+        <activity android:name="Ten"></activity>
+        <activity android:name="Eleven"></activity>
+        <activity android:name="Twelve"></activity>
+        
+        <service  android:enabled="true" android:name=".MusicService" />
+        <activity android:name="Two"></activity>
+        <activity android:name="Three"></activity>
+        <activity android:name="Thirteen"></activity>
+        
+        
+    
+    </application>
+    
+
+</manifest>
