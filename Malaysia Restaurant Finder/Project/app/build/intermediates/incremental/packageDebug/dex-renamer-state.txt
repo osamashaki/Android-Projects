@@ -1,0 +1,7 @@
+#Sat Jun 24 18:51:33 SGT 2017
+base.0=C\:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c4e252c5d765af5d04ba78df3b4bd299a128c90
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_55222f2986e3168c27f243bc1f5d605a55ef684a\\classes.dex
+base.1=C\:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_55222f2986e3168c27f243bc1f5d605a55ef684a
+file.0=C\:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9c4e252c5d765af5d04ba78df3b4bd299a128c90\\classes.dex

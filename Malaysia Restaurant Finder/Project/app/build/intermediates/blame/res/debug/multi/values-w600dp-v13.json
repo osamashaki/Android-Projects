@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 63,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 54,
+                        "endOffset": 393
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 63,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\values-w600dp\\values-w600dp.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 54,
+                        "endOffset": 393
+                    }
+                }
+            }
+        ]
+    }
+]

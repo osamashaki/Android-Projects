@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:id="@+id/itemDetails_scContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/Details_thumbnail"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="15dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#efefef"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Restaurant Name: "
+                        android:textColor="@color/list_background_pressed"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtrestname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="....."
+                        android:textColor="#3c3b3b"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#99ffffff" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Mobile: "
+                        android:textColor="@color/list_background_pressed"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtmobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="....."
+                        android:textColor="#3c3b3b"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <Button
+                        android:id="@+id/btncall"
+                        android:layout_width="30dp"
+                        android:layout_height="40dp"
+                        android:background="@android:drawable/stat_sys_phone_call_forward"
+                        android:text=""/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#99ffffff" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Opening hours: "
+                        android:textColor="@color/list_background_pressed"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtopenhours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="....."
+                        android:textColor="#3c3b3b"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#99ffffff" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Dishes: "
+                        android:textColor="@color/list_background_pressed"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtdishes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="....."
+                        android:textColor="#3c3b3b"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#99ffffff" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Address: "
+                        android:textColor="@color/list_background_pressed"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtaddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="....."
+                        android:textColor="#3c3b3b"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#99ffffff" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="Location: "
+                        android:textColor="@color/list_background_pressed"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtlocation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:text="....."
+                        android:textColor="#3c3b3b"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <fragment
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:id="@+id/map"
+                        tools:context=".RestDetails"
+                        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

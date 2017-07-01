@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/contact_form_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="25dp"
+        android:text="Suggest a Restaurant"
+        android:textColor="#ce3232"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Please send all the restaurant details to the following email address:"
+        android:textSize="14dp"
+        android:padding="10dp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="saood98@windowslive.com"
+        android:textSize="14dp"
+        android:typeface="serif"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#ce3232"
+        android:padding="10dp"
+        android:typeface="serif"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\30db15ffc99d53e60da7521fc60a0ae4890296ad\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\b7323e73d4121a9f710730dd2a5a3625621e1f6e\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\8.4.0\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\8.4.0\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\b7323e73d4121a9f710730dd2a5a3625621e1f6e\\output\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\b7323e73d4121a9f710730dd2a5a3625621e1f6e\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\b7323e73d4121a9f710730dd2a5a3625621e1f6e\\output\\res\\color\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Osama sh\\Desktop\\Project\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\30db15ffc99d53e60da7521fc60a0ae4890296ad\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Osama\\Desktop\\Project 30-5 Restaurant Finder\\Project\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\Osama\\.android\\build-cache\\76eac0da52be20e6633dfeeca6e87dbf8731c039\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    }
+]
