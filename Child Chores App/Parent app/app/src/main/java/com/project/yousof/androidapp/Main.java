@@ -1,0 +1,136 @@
+package com.project.yousof.androidapp;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+import com.project.yousof.androidapp.library.DatabaseHandler;
+import com.project.yousof.androidapp.library.UserFunctions;
+
+import org.json.JSONObject;
+
+import java.util.HashMap;
+
+
+public class Main extends Activity {
+
+    Button assign;
+    Button checkchores;
+    Button childpoints;
+    Button addallow;
+    Button changepas;
+    Button btnLogout;
+
+    String sid;
+
+
+    /**
+     * Called when the activity is first created.
+     */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main_menu);
+
+        sid = getIntent().getStringExtra("sid");
+
+
+        assign = (Button) findViewById(R.id.btnassign);
+        checkchores = (Button) findViewById(R.id.btncheckchores);
+        childpoints = (Button) findViewById(R.id.btnpoints);
+        addallow = (Button) findViewById(R.id.btnallowence);
+        changepas = (Button) findViewById(R.id.btchangepass);
+        btnLogout = (Button) findViewById(R.id.logout);
+
+        DatabaseHandler db = new DatabaseHandler(getApplicationContext());
+
+        /**
+         * Hashmap to load data from the Sqlite database
+         **/
+         HashMap<String,String> user = new HashMap<String, String>();
+         user = db.getUserDetails();
+
+        JSONObject json = null;
+        String name = null;
+        //final TextView login = (TextView) findViewById(R.id.textwelcome);
+
+        //sid = getIntent().getStringExtra("sid");
+        //Toast.makeText(getApplicationContext(), "sid: "+ sid, Toast.LENGTH_LONG).show();
+
+        assign.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent c = new Intent(getApplicationContext(), Assign.class);
+                startActivity(c);
+            }
+
+        });
+        checkchores.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent c = new Intent(getApplicationContext(), Checkchore.class);
+                startActivity(c);
+            }
+
+        });
+        childpoints.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent c = new Intent(getApplicationContext(), Points.class);
+                startActivity(c);
+            }
+
+        });
+
+        addallow.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View arg0) {
+
+                Intent c = new Intent(getApplicationContext(), Allowance.class);
+                startActivity(c);
+            }
+
+        });
+
+
+
+        changepas.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View arg0){
+
+                Intent chgpass = new Intent(getApplicationContext(), ChangePassword.class);
+                chgpass.putExtra("sid",sid);
+                startActivity(chgpass);
+            }
+
+        });
+
+       /**
+        *Logout from the User Panel which clears the data in Sqlite database
+        **/
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View arg0) {
+
+                UserFunctions logout = new UserFunctions();
+                logout.logoutUser(getApplicationContext());
+                Intent login = new Intent(getApplicationContext(), Login.class);
+                login.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(login);
+                finish();
+            }
+        });
+/**
+ * Sets user first name and last name in text view.
+ **/
+
+        //login.setText("Welcome Admin ");// + name);
+
+
+
+    }
+
+
+
+
+
+}

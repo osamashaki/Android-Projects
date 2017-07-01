@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/back">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:text="Assign a chore"
+        android:textColor="#fff" />
+
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="Chore title"
+            android:id="@+id/textView2"
+            android:textColor="#fff"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/choretitle"
+            android:hint="Title here"
+            android:textColor="#000000"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+</LinearLayout>
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:text="Description:"
+            android:textColor="#fff"
+            android:id="@+id/textView3"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:textColor="#000000"
+            android:id="@+id/choredesc"
+            android:hint="Description here"
+            android:layout_alignTop="@+id/textView3"
+            android:layout_alignParentRight="true"
+            android:textSize="15dp"/>
+</LinearLayout>
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <TextView
+            android:layout_width="125dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:text="Child"
+            android:id="@+id/textView4"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:id="@+id/child"
+        android:entries="@array/names_array"
+        android:prompt="@string/names_prompt" />
+
+
+
+
+
+</LinearLayout>
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+</LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:textColor="#ff0000"
+            android:id="@+id/add_error_msg"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnassign"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@anim/btn_assign_selector2"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000" />
+
+
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Parent App</string>
+    <string name="hello">Welcome to our Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="names_prompt">Choose a name</string>
+    <string-array name="names_array">
+        <item>Ahmad</item>
+        <item>Mohammad</item>
+
+    </string-array>
+
+</resources>

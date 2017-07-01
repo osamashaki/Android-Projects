@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/back">
+
+    <Button
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/checkchores"
+        android:textSize="13dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="@anim/btn_browse_selector"
+        />
+
+    <Button
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/checkpoints"
+        android:textSize="13dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="@anim/btn_check_selector"
+        android:layout_below="@+id/btchangepass"/>
+
+
+    <Button
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/checkallowance"
+        android:textSize="13dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="@anim/btn_checkallow_selector"
+        />
+
+    <Button
+        android:id="@+id/btchangepass"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:background="@anim/btn_chpass_selector"
+        android:layout_marginTop="40dp"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:text=""
+        android:id="@+id/logout"
+        android:textSize="13dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:background="@anim/btn_logout_selector"
+        />
+
+
+
+
+
+</LinearLayout>
