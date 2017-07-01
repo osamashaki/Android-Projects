@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.waleed.unitenapp123456" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name="com.example.waleed.unitenapp123456.Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Register"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Registered"
+            android:label="@string/app_name">
+
+        </activity>
+
+
+        <activity android:name="com.example.waleed.unitenapp123456.Main"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.PasswordReset"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.ChangePassword"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques1" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques2" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques3" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques4" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques5" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques6" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques7" android:label="@string/app_name"> </activity>
+
+        <activity android:name="com.example.waleed.unitenapp123456.Ques8" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques9" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques10" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques11" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques12" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques13" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques14" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques15" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques16" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques17" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques18" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques19" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Ques20" android:label="@string/app_name"> </activity>
+        <activity android:name="com.example.waleed.unitenapp123456.Results" android:label="@string/app_name"> </activity>
+
+
+    </application>
+    <!-- Allow to connect with internet and to know the current network state-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

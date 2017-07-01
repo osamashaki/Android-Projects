@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/orient2">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:text="Question 20"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="20. When you give someone directions to your house, what are you most likely to tell them?"
+        android:textColor="#fff" />
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton android:id="@+id/option1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:text="A. A description of building and landmarks they will pass on the way"/>
+
+        <RadioButton android:id="@+id/option2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:text="B. The names of the roads or streets they will be on"/>
+
+        <RadioButton android:id="@+id/option3"
+            android:layout_width="fill_parent"
+            android:layout_height="130dp"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:text="C. Follow me it will be easier if I just show you how to get there"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center|bottom" >
+
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:layout_weight="1"
+            android:padding="10dp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

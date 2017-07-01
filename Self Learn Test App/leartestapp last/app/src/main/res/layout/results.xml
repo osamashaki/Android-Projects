@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/orient2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="25dp"
+        android:text="Your results"
+        android:textColor="#fff" />
+
+    <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Answers for A: "
+            android:id="@+id/a"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textColor="#fff"
+                android:ems="10"
+                android:id="@+id/aresult"
+                android:padding="10dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="% Visual"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:padding="10dp"/>
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:orientation = "horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Answers for B: "
+            android:textColor="#fff"
+            android:id="@+id/resultb"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textColor="#fff"
+        android:ems="10"
+        android:id="@+id/bresult"
+        android:padding="10dp"
+        android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="% Auditory"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+</LinearLayout>
+        <LinearLayout android:orientation = "horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:orientation = "horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:text="Answers for C: "
+            android:id="@+id/resultc"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+    <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:ems="10"
+            android:id="@+id/cresult"
+            android:padding="10dp"
+            android:textSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="% Tactile"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Save result"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
